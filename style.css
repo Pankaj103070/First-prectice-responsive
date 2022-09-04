@@ -1,0 +1,150 @@
+#container{
+    height: 630px;
+    width: 100%;
+    display: flex;
+    /* background-color: aquamarine; */
+}
+#pluralsight{
+    /* border: 2px solid black; */
+    /* flex-grow: 1; */
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(29, 27, 27);
+}
+#pluralsight-child-div{
+    /* border: 1px solid red; */
+    width: 400px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#logo{
+    height: 70px;
+    width: 380px;
+    /* border: 1px solid red; */
+}
+#logo img{
+    height: 100%;
+    width: 100%;
+}
+.input-box{
+    border: 0.5px solid gray;
+    height: 42px;
+    width: 380px;
+    margin-top: 8px;
+    border-radius: 2px;
+    background-color: rgb(29, 27, 27);
+
+}
+label{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(204, 189, 189);
+    font-weight: bold;
+}
+.Sign-in-button{
+    width: 385px;
+    padding: 15px;
+    background-color: rgb(55, 55, 209);
+    border-radius: 4px;
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    margin-top: 18px;
+}
+#forget-pass{
+    margin-left: 100px;
+}
+#sign-in-with{
+    margin-left: 50px;
+}
+.forget-sign-in a{
+    font-family: sans-serif;
+    font-size: 12px;
+    font: bold;
+    color: rgb(12, 175, 240);
+    text-decoration: none;
+}
+hr{
+    color: rgb(71, 69, 69);
+}
+.create-account{
+    width: 388px;
+    padding: 15px;
+    background-color: rgb(71, 69, 69);
+    border-radius: 4px;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+    border: none;
+    margin-top: 18px;
+}
+
+#stay-home{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#one-dev{
+    display: none;
+}
+
+@media screen and (max-width:500px){
+	
+	#stay-home{
+		display:none;
+	}
+	#pluralsight-child-div{
+		background-color:black;
+		
+		
+	}
+	#pluralsigh{
+		width:100%;
+	
+	}
+	.input-box{
+		width:90%;
+	}
+	.Sign-in-button{
+		width:92%;
+	}
+
+
+#forget-pass{
+	margin-left:20%;
+	
+}
+#sign-in-with{
+	margin-left:10%;
+}
+.create-account{
+	width:90%;
+}
+#form{
+	margin:auto;
+	
+}
+#logo{
+	width:70%;
+	margin:auto;
+}
+}
+@media screen and (min-width:500px)and (max-width:1080px){
+	#two-dev{
+		display:none;
+	}
+	#one-dev{
+		display:block;
+	}
+}
